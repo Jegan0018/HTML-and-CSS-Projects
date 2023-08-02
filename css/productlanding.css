@@ -1,0 +1,120 @@
+body {
+    background-color:#FFFFCC;
+    background-image:url("../images/boat.jpg");
+    background-repeat:no-repeat;
+}
+#container{
+    height:1000px;
+    width:100%;
+}
+#top-bar {
+    height:60px;
+
+}
+#top-bar img {
+    margin-top:10px;
+    height:40px;
+}
+#top-bar ul {
+    float:right;
+    margin-top:10px;
+}
+#top-bar ul li {
+    display:inline;
+    margin-right:40px;
+}
+#top-bar ul li a{
+    text-decoration:none;
+    color:black;
+}
+#header {
+    height:100px;
+    width:70%;
+    margin:0px auto;
+    background-color:white;
+    text-align:center;
+    padding:10px;
+}
+#feature {
+    margin:0% 30%;
+    padding:10px;
+    background-color:white;
+}
+#feature ul {
+    list-style-type:none;
+    text-size:40px;
+}
+#feature ul li {
+    padding-bottom:20px;
+}
+#feature ul li img {
+    width:30px;
+    height:30px;
+    margin-right:20px;
+    font-size:25px;
+}
+#how-it-works {
+    padding:20px;
+    text-align:center;
+}
+#price1 {
+    width:30%;
+    height:100px;
+    float:left;
+    margin-left:20%;
+
+}
+#price2 {
+    width:30%;
+    height:100px;
+    float:right;
+    margin-left:20%;
+
+}
+table{
+    border:1px solid black;
+    border-collapse:collapse;
+}
+.row1 {
+    background-color:grey;
+}
+.rate {
+    text-align:center;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: green;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left:25%;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+#footer {
+    width:100%;
+    margin-top:50px;
+    margin-bottom:20px;
+    height:50px;
+    float:right;
+    text-align:right;
+    background-color:gray;
+}
+#footer ul {
+    list-style-type:none;
+    padding-bottom:5px;
+    padding-right:20px;
+}
+#footer ul li {
+    margin-top:30px;
+    display:inline;
+}
+#footer ul li a {
+    text-decoration:none;
+}
